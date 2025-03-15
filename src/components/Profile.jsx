@@ -9,6 +9,7 @@ import {
     faNodeJs,
     faGithub,
     faGit,
+    faUnity,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -16,9 +17,10 @@ export default function Profile() {
     const [activeTab, setActiveTab] = useState("about");
 
     return (
-        <div className="relative flex flex-col h-screen w-screen bg-black text-white">
-            <div className="flex flex-row items-start justify-center gap-5 h-full w-full p-10">
-                <div className="bg-gray-900 p-10 rounded-2xl w-auto shadow-lg text-center h-150">
+        <div className="relative flex flex-col min-h-screen bg-black text-white">
+            <div className="flex flex-col lg:flex-row items-start justify-center gap-5 p-5 lg:p-10">
+                {/* Profile content */}
+                <div className="card-profile bg-gray-900 p-5 lg:p-10 rounded-2xl shadow-lg text-center w-full lg:w-auto lg:h-147">
                     <img
                         src="img/profile.jpg"
                         alt="Profile"
@@ -82,10 +84,11 @@ export default function Profile() {
                     </div>
                     <div className="flex justify-center space-x-6 mt-10 text-2xl">
                         <a
-                            href="#"
+                            href="https://github.com/slashMK303"
                             className="text-teal-400 hover:text-teal-300"
+                            target="_blank"
                         >
-                            <i className="fab fa-facebook"></i>
+                            <i className="fab fa-github"></i>
                         </a>
                         <a
                             href="#"
@@ -94,20 +97,21 @@ export default function Profile() {
                             <i className="fab fa-instagram"></i>
                         </a>
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/nanang-marvin-kurniawan-343a762a9/"
                             className="text-teal-400 hover:text-teal-300"
+                            target="_blank"
                         >
-                            <i className="fab fa-twitter"></i>
+                            <i className="fab fa-linkedin"></i>
                         </a>
                     </div>
                 </div>
 
                 {/* Main content */}
-                <div className="bg-gray-900 p-6 rounded-2xl w-3/5 shadow-lg min-h-150 max-h-fit">
-                    <nav className="flex justify-end space-x-6">
+                <div className="card-content bg-gray-900 p-5 lg:p-6 rounded-2xl shadow-lg w-full lg:w-3/5 min-h-147">
+                    <nav className="flex justify-center lg:justify-end space-x-6 mb-5">
                         <div
                             className="bg-gray-800 px-4 py-2 rounded-md flex gap-5"
-                            style={{ width: "max-content", marginLeft: "auto" }}
+                            style={{ width: "max-content" }}
                         >
                             <button
                                 onClick={() => setActiveTab("about")}
@@ -170,7 +174,7 @@ export default function Profile() {
                             <h3 className="mt-10 text-2xl font-bold">
                                 My Skills
                             </h3>
-                            <div className="grid grid-cols-4 gap-4 mt-2 h-fit">
+                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2 h-fit">
                                 {[
                                     faHtml5,
                                     faCss3,
@@ -193,8 +197,8 @@ export default function Profile() {
                             </div>
 
                             <h3 className="mt-10 text-2xl font-bold">Tools</h3>
-                            <div className="grid grid-cols-4 gap-4 mt-2 h-fit">
-                                {[faGithub, faGit, faGithub].map(
+                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2 h-fit">
+                                {[faGithub, faGit, faGithub, faUnity].map(
                                     (icon, index) => (
                                         <span
                                             key={index}
@@ -217,7 +221,7 @@ export default function Profile() {
                         <div>
                             <h2 className="text-2xl font-bold">Services</h2>
                             <hr className="blue-line mt-2" />
-                            <div className="grid grid-cols-2 gap-4 mt-2 h-fit">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2 h-fit">
                                 <div className="border border-gray-700 bg-gray-800/30 px-3 py-3 rounded-lg flex justify-center items-center cursor-pointer hover:bg-amber-300/10">
                                     <div className="flex justify-center items-center mr-2">
                                         <img
@@ -284,6 +288,64 @@ export default function Profile() {
                             <p className="text-gray-400 mt-2 text-sm">
                                 Check out my latest web and software projects...
                             </p>
+                            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-2 h-fit">
+                                {[
+                                    {
+                                        name: "Simple Qr Code Generator",
+                                        desc: "Desc 1",
+                                        link: "https://slashmk303.github.io/qr-code-generate-simple/",
+                                        imageSrc: "img/qrgenerator.jpg",
+                                    },
+                                    {
+                                        name: "CSS3",
+                                        desc: "Desc 2",
+                                        link: "https://example.com/css3-project",
+                                        imageSrc: "img/qrgenerator.jpg",
+                                    },
+                                    {
+                                        name: "JavaScript",
+                                        desc: "Desc 3",
+                                        link: "https://example.com/js-project",
+                                        imageSrc: "img/qrgenerator.jpg",
+                                    },
+                                    {
+                                        name: "PHP",
+                                        desc: "Desc 4",
+                                        link: "https://example.com/php-project",
+                                        imageSrc: "img/qrgenerator.jpg",
+                                    },
+                                    {
+                                        name: "React",
+                                        desc: "Desc 5",
+                                        link: "https://example.com/react-project",
+                                        imageSrc: "img/qrgenerator.jpg",
+                                    },
+                                    {
+                                        name: "Node.js",
+                                        desc: "Desc 6",
+                                        link: "https://example.com/nodejs-project",
+                                        imageSrc: "img/qrgenerator.jpg",
+                                    },
+                                ].map((item, index) => (
+                                    <a
+                                        key={index}
+                                        href={item.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="hover:bg-gray-800/50 px-3 py-3 rounded-lg justify-center items-center text-md"
+                                    >
+                                        <img
+                                            src={item.imageSrc}
+                                            alt={`${item.name} project`}
+                                            className="w-full h-auto mr-2 rounded-md mb-2"
+                                        />
+                                        {item.name}
+                                        <p className="text-sm text-gray-400">
+                                            {item.desc}
+                                        </p>
+                                    </a>
+                                ))}
+                            </div>
                         </div>
                     )}
 
@@ -296,16 +358,12 @@ export default function Profile() {
                                 <input
                                     className="flex-1 border border-gray-700 rounded-lg p-2 w-full"
                                     type="text"
-                                    name=""
-                                    id=""
                                     placeholder="Name"
                                     required
                                 />
                                 <input
                                     className="flex-1 border border-gray-700 rounded-lg p-2 w-full mt-3"
                                     type="email"
-                                    name=""
-                                    id=""
                                     placeholder="Email"
                                     required
                                 />
@@ -329,7 +387,7 @@ export default function Profile() {
                     )}
                 </div>
             </div>
-            <footer className="absolute bottom-5 text-gray-500 text-sm w-full text-center">
+            <footer className="static bottom-5 text-gray-500 text-sm w-full text-center">
                 &copy;2025 Meowish. All rights reserved.
             </footer>
         </div>
