@@ -1,43 +1,19 @@
 function Projects() {
     return (
         <>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-2 h-fit">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-2 h-fit">
                 {[
                     {
                         name: "Simple Qr Code Generator",
-                        desc: "Desc 1",
+                        desc: "Qr code generator use javascript",
                         link: "https://slashmk303.github.io/qr-code-generate-simple/",
                         imageSrc: "img/qrgenerator.jpg",
                     },
                     {
-                        name: "CSS3",
-                        desc: "Desc 2",
-                        link: "https://example.com/css3-project",
-                        imageSrc: "img/qrgenerator.jpg",
-                    },
-                    {
-                        name: "JavaScript",
-                        desc: "Desc 3",
-                        link: "https://example.com/js-project",
-                        imageSrc: "img/qrgenerator.jpg",
-                    },
-                    {
-                        name: "PHP",
-                        desc: "Desc 4",
-                        link: "https://example.com/php-project",
-                        imageSrc: "img/qrgenerator.jpg",
-                    },
-                    {
-                        name: "React",
-                        desc: "Desc 5",
-                        link: "https://example.com/react-project",
-                        imageSrc: "img/qrgenerator.jpg",
-                    },
-                    {
-                        name: "Node.js",
-                        desc: "Desc 6",
-                        link: "https://example.com/nodejs-project",
-                        imageSrc: "img/qrgenerator.jpg",
+                        name: "Personal Website",
+                        desc: "My personal website",
+                        link: "https://nanangmarvin.vercel.app/",
+                        imageSrc: "img/personalweb.jpg",
                     },
                 ].map((item, index) => (
                     <a

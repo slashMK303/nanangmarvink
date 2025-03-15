@@ -189,7 +189,7 @@ export default function Profile() {
                 </div>
             </div>
             <footer className="static bottom-5 text-gray-500 text-sm w-full text-center">
-                &copy;2025 Meowish. All rights reserved.
+                &copy;2025 Nanang M.K. All rights reserved.
             </footer>
         </div>
     );
