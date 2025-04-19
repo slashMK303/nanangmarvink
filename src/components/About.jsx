@@ -30,7 +30,7 @@ function About() {
                     (icon, index) => (
                         <span
                             key={index}
-                            className="bg-gray-700 px-3 py-3 rounded-lg flex justify-center items-center"
+                            className="bg-gray-700 px-3 py-3 rounded-lg flex justify-center items-center hover:cursor-pointer hover:bg-teal-400/50"
                         >
                             <FontAwesomeIcon icon={icon} className="mr-2" />
                             {icon.iconName.toUpperCase()}
@@ -44,7 +44,7 @@ function About() {
                 {[faGithub, faGit, faGithub, faUnity].map((icon, index) => (
                     <span
                         key={index}
-                        className="bg-gray-700 px-3 py-3 rounded-lg flex justify-center items-center"
+                        className="bg-gray-700 px-3 py-3 rounded-lg flex justify-center items-center hover:cursor-pointer hover:bg-teal-400/50"
                     >
                         <FontAwesomeIcon icon={icon} className="mr-2" />
                         {icon.iconName.toUpperCase()}

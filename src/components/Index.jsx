@@ -9,7 +9,7 @@ export default function Profile() {
     const [activeTab, setActiveTab] = useState("about");
 
     return (
-        <div className="relative flex flex-col min-h-screen bg-black text-white">
+        <div className="relative flex flex-col min-h-screen bg-gray-950 text-white">
             <div className="flex flex-col lg:flex-row items-start justify-center gap-5 p-5 lg:p-10">
                 {/* Profile content */}
                 <div className="card-profile bg-gray-900 p-5 lg:p-10 rounded-2xl shadow-lg text-center w-full lg:w-auto lg:h-147">
@@ -39,7 +39,7 @@ export default function Profile() {
                             <div className="flex-1">
                                 <p className="text-sm">EMAIL</p>
                                 <p className="text-sm font-bold text-white">
-                                    marvinkurniawan38@gmail.com
+                                    nanangm.dev@gmail.com
                                 </p>
                             </div>
                         </div>

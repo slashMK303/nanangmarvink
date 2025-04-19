@@ -31,7 +31,7 @@ function Contact() {
             localStorage.setItem("emailCount", 0);
         }
 
-        if (emailCount >= 200) {
+        if (emailCount >= 2) {
             // batas pengiriman email
             console.log("Batas pengiriman email telah tercapai");
             setLoading(false);
@@ -40,10 +40,10 @@ function Contact() {
 
         try {
             await emailjs.sendForm(
-                "service_y3qqpgt",
-                "template_2nwiavs",
+                "service_y3qqpgt121",
+                "template_2nwiavs121",
                 e.target,
-                "Px_mZGKn4K4z3KZAp"
+                "Px_mZGKn4K4z3KZAp121"
             );
             setLoading(false);
             setSuccess(true);
