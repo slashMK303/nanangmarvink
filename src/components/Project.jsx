@@ -1,4 +1,4 @@
-import { faJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faJs, faReact, faUnity } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Projects() {
@@ -20,6 +20,13 @@ function Projects() {
                         link: "https://nanangmarvin.vercel.app/",
                         imageSrc: "img/personalweb.jpg",
                     },
+                    // {
+                    //     name: "First Game",
+                    //     language: [faUnity],
+                    //     desc: "My first game use Unity",
+                    //     link: "#",
+                    //     imageSrc: "img/firstgame.png",
+                    // },
                 ].map((item, index) => (
                     <a
                         key={index}

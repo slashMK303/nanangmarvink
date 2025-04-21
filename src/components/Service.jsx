@@ -5,7 +5,7 @@ function Service() {
                 <div className="border border-gray-700 bg-gray-800/30 px-3 py-3 rounded-lg flex justify-center items-center cursor-pointer hover:bg-amber-300/10">
                     <div className="flex justify-center items-center mr-2">
                         <img
-                            src="img/web.jpg"
+                            src="img/web.webp"
                             alt="web-icon"
                             width={70}
                             className="p-2 rounded-2xl"
@@ -24,7 +24,7 @@ function Service() {
                 <div className="border border-gray-700 bg-gray-800/30 px-3 py-3 rounded-lg flex justify-center items-center cursor-pointer hover:bg-amber-300/10">
                     <div className="flex justify-center items-center mr-2">
                         <img
-                            src="img/game.jpg"
+                            src="img/game.webp"
                             alt="game-icon"
                             width={70}
                             className="p-2 rounded-2xl"
@@ -44,7 +44,7 @@ function Service() {
                 <div className="border border-gray-700 bg-gray-800/30 px-3 py-3 rounded-lg flex justify-center items-center cursor-pointer hover:bg-amber-300/10">
                     <div className="flex justify-center items-center mr-2">
                         <img
-                            src="img/modeling.jpg"
+                            src="img/modeling.webp"
                             alt="modeling-icon"
                             width={70}
                             className="p-2 rounded-2xl"

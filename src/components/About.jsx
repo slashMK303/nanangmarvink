@@ -51,6 +51,15 @@ function About() {
                     </span>
                 ))}
             </div>
+
+            <h3 className="mt-10 text-2xl font-bold">My CV</h3>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2 h-fit">
+                <a href="https://www.cake.me/nanang-marvin" target="_blank">
+                    <span className="bg-gray-700 px-3 py-3 rounded-lg flex justify-center items-center hover:cursor-pointer hover:bg-teal-400/50">
+                        View My CV here!
+                    </span>
+                </a>
+            </div>
         </>
     );
 }
