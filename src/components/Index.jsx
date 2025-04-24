@@ -12,7 +12,7 @@ export default function Profile() {
         <div className="relative flex flex-col min-h-screen bg-gray-950 text-white">
             <div className="flex flex-col lg:flex-row items-start justify-center gap-5 p-5 lg:p-10">
                 {/* Profile content */}
-                <div className="card-profile bg-gray-900 p-5 lg:p-10 rounded-2xl shadow-lg text-center w-full lg:w-auto lg:h-147">
+                <div className="card-profile bg-gray-900 p-5 lg:p-6 rounded-2xl shadow-lg text-center w-full lg:w-auto lg:h-147">
                     <img
                         src="img/profile.jpg"
                         alt="Profile"
@@ -21,13 +21,20 @@ export default function Profile() {
                     <h2 className="mt-4 text-2xl font-bold">
                         Nanang Marvin Kurniawan
                     </h2>
-                    <span className="mt-6 bg-gray-700 text-sm px-5 py-1 rounded-md mt-2 inline-block">
+                    <span className="mt-5 bg-gray-700 text-sm px-5 py-1 rounded-md mt-2 inline-block">
                         Student
                     </span>
+                    <br />
 
-                    <hr className="line mx-auto mt-10" />
+                    <a href="https://www.cake.me/nanang-marvin" target="_blank">
+                        <span className="bg-gray-700 text-sm px-5 py-1 rounded-md mt-5 inline-block hover:cursor-pointer hover:bg-teal-400/50 active:bg-teal-400/50k">
+                            View My CV Here!
+                        </span>
+                    </a>
 
-                    <div className="mt-10 text-sm text-gray-400 space-y-1 text-left">
+                    <hr className="line mx-auto mt-5" />
+
+                    <div className="text-sm text-gray-400 space-y-1 text-left mb-6">
                         <div className="flex items-center">
                             <div className="border border-gray-700 rounded-lg shadow-md p-2 flex justify-center items-center mr-2">
                                 <img
@@ -74,7 +81,8 @@ export default function Profile() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-center space-x-6 mt-10 text-2xl">
+
+                    <div className="flex justify-center space-x-6 mt-14 text-2xl">
                         <a
                             href="https://github.com/slashMK303"
                             className="text-teal-400 hover:text-teal-300"

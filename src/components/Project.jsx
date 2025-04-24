@@ -17,7 +17,7 @@ function Projects() {
                         name: "Personal Website",
                         language: [faReact],
                         desc: "My personal website use React",
-                        link: "https://nanangmarvin.vercel.app/",
+                        link: "https://nanangmarvin.my.id/",
                         imageSrc: "img/personalweb.jpg",
                     },
                     // {
@@ -33,7 +33,7 @@ function Projects() {
                         href={item.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:bg-gray-800/50 hover:text-amber-400 px-3 py-3 rounded-lg justify-center items-center text-md"
+                        className="hover:bg-gray-800/50 hover:text-amber-400 active:text-amber-400 px-3 py-3 rounded-lg justify-center items-center text-md"
                     >
                         <img
                             src={item.imageSrc}

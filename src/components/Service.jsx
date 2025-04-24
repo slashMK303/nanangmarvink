@@ -2,7 +2,7 @@ function Service() {
     return (
         <>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2 h-fit">
-                <div className="border border-gray-700 bg-gray-800/30 px-3 py-3 rounded-lg flex justify-center items-center cursor-pointer hover:bg-amber-300/10">
+                <div className="border border-gray-700 bg-gray-800/30 px-3 py-3 rounded-lg flex justify-center items-center cursor-pointer hover:bg-amber-300/10 active:bg-amber-300/10">
                     <div className="flex justify-center items-center mr-2">
                         <img
                             src="img/web.webp"
@@ -21,7 +21,7 @@ function Service() {
                         </p>
                     </div>
                 </div>
-                <div className="border border-gray-700 bg-gray-800/30 px-3 py-3 rounded-lg flex justify-center items-center cursor-pointer hover:bg-amber-300/10">
+                <div className="border border-gray-700 bg-gray-800/30 px-3 py-3 rounded-lg flex justify-center items-center cursor-pointer hover:bg-amber-300/10 active:bg-amber-300/10">
                     <div className="flex justify-center items-center mr-2">
                         <img
                             src="img/game.webp"
@@ -41,7 +41,7 @@ function Service() {
                         </p>
                     </div>
                 </div>
-                <div className="border border-gray-700 bg-gray-800/30 px-3 py-3 rounded-lg flex justify-center items-center cursor-pointer hover:bg-amber-300/10">
+                <div className="border border-gray-700 bg-gray-800/30 px-3 py-3 rounded-lg flex justify-center items-center cursor-pointer hover:bg-amber-300/10 active:bg-amber-300/10">
                     <div className="flex justify-center items-center mr-2">
                         <img
                             src="img/modeling.webp"

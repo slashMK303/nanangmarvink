@@ -8,6 +8,8 @@ import {
     faGithub,
     faGit,
     faUnity,
+    faJava,
+    faLaravel,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -26,25 +28,19 @@ function About() {
 
             <h3 className="mt-10 text-2xl font-bold">My Skills</h3>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2 h-fit">
-                {[faHtml5, faCss3, faJs, faPhp, faReact, faNodeJs].map(
-                    (icon, index) => (
-                        <span
-                            key={index}
-                            className="bg-gray-700 px-3 py-3 rounded-lg flex justify-center items-center hover:cursor-pointer hover:bg-teal-400/50"
-                        >
-                            <FontAwesomeIcon icon={icon} className="mr-2" />
-                            {icon.iconName.toUpperCase()}
-                        </span>
-                    )
-                )}
-            </div>
-
-            <h3 className="mt-10 text-2xl font-bold">Tools</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2 h-fit">
-                {[faGithub, faGit, faGithub, faUnity].map((icon, index) => (
+                {[
+                    faHtml5,
+                    faCss3,
+                    faJs,
+                    faPhp,
+                    faReact,
+                    faNodeJs,
+                    faJava,
+                    faLaravel,
+                ].map((icon, index) => (
                     <span
                         key={index}
-                        className="bg-gray-700 px-3 py-3 rounded-lg flex justify-center items-center hover:cursor-pointer hover:bg-teal-400/50"
+                        className="bg-gray-700 px-3 py-3 rounded-lg flex justify-center items-center hover:cursor-pointer hover:bg-teal-400/50 active:bg-teal-400/50"
                     >
                         <FontAwesomeIcon icon={icon} className="mr-2" />
                         {icon.iconName.toUpperCase()}
@@ -52,13 +48,17 @@ function About() {
                 ))}
             </div>
 
-            <h3 className="mt-10 text-2xl font-bold">My CV</h3>
+            <h3 className="mt-10 text-2xl font-bold">Tools</h3>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2 h-fit">
-                <a href="https://www.cake.me/nanang-marvin" target="_blank">
-                    <span className="bg-gray-700 px-3 py-3 rounded-lg flex justify-center items-center hover:cursor-pointer hover:bg-teal-400/50">
-                        View My CV here!
+                {[faGithub, faGit, faUnity].map((icon, index) => (
+                    <span
+                        key={index}
+                        className="bg-gray-700 px-3 py-3 rounded-lg flex justify-center items-center hover:cursor-pointer hover:bg-teal-400/50 active:bg-teal-400/50"
+                    >
+                        <FontAwesomeIcon icon={icon} className="mr-2" />
+                        {icon.iconName.toUpperCase()}
                     </span>
-                </a>
+                ))}
             </div>
         </>
     );
