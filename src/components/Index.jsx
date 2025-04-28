@@ -97,6 +97,13 @@ export default function Profile() {
                         >
                             <i className="fab fa-linkedin"></i>
                         </a>
+                        <a
+                            href="https://itch.io/profile/marvin195"
+                            className="text-teal-400 hover:text-teal-300"
+                            target="_blank"
+                        >
+                            <i className="fab fa-itch-io"></i>
+                        </a>
                     </div>
                 </div>
 
