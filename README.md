@@ -41,8 +41,8 @@ Website ini dibangun sebagai representasi digital saya — memuat informasi prib
 Ingin bekerja sama atau sekadar berkenalan? Jangan ragu untuk menghubungi saya:
 
 - 🌐 [Website Resmi](https://nanangmarvin.my.id)
-- 📧 Email: tersedia di website
-- 🧠 LinkedIn / Instagram / GitHub: link tersedia di halaman utama website
+- 📧 Email: nanangm.dev@gmail.com
+- 🧠 LinkedIn: https://www.linkedin.com/in/nanang-marvin-kurniawan-343a762a9/
 
 ---
 
