@@ -1,26 +1,26 @@
 # 👨‍💻 Nanang Marvin K - Portfolio & Projects
 
-Selamat datang di repositori GitHub resmi **Nanang Marvin K**!  
-Di sini, kamu bisa menemukan berbagai proyek yang saya kerjakan, mulai dari pengembangan web, eksperimen teknologi, hingga catatan perjalanan belajar saya di dunia pemrograman.
+Welcome to the official GitHub repository of **Nanang Marvin K**!  
+Here, you'll find a collection of personal projects, tech experiments, and my journey in software development.
 
-🔗 **Website Portfolio**: [nanangmarvin.my.id](https://nanangmarvin.my.id)  
-📁 **GitHub Repo**: [slashMK303/nanangmarvink](https://github.com/slashMK303/nanangmarvink)
-
----
-
-## 🌐 Tentang Website
-
-Website ini dibangun sebagai representasi digital saya — memuat informasi pribadi, pengalaman, serta showcase proyek-proyek terbaik. Dibuat dengan teknologi modern yang mengedepankan performa, minimalis, dan user experience.
-
-### ✨ Fitur Utama Website:
-- Desain bersih & responsive
-- Sekilas tentang saya dan keahlian
-- Daftar proyek dengan link ke repositori GitHub
-- Kontak langsung via email & sosial media
+🔗 **Portfolio Website**: [nanangmarvin.my.id](https://nanangmarvin.my.id)  
+📁 **GitHub Repository**: [slashMK303/nanangmarvink](https://github.com/slashMK303/nanangmarvink)
 
 ---
 
-## ⚙️ Teknologi yang Digunakan
+## 🌐 About the Website
+
+This website serves as my digital presence — showcasing who I am, what I do, and the projects I’ve built. It’s designed to be clean, fast, and user-friendly using modern technologies.
+
+### ✨ Key Features:
+- Clean and responsive design
+- Personal profile and skill highlights
+- Project portfolio with GitHub links
+- Contact section with social links
+
+---
+
+## ⚙️ Built With
 
 - HTML5, CSS3, JavaScript
 - Tailwind CSS
@@ -36,20 +36,20 @@ Website ini dibangun sebagai representasi digital saya — memuat informasi prib
 
 ---
 
-## 📫 Hubungi Saya
+## 📫 Contact Me
 
-Ingin bekerja sama atau sekadar berkenalan? Jangan ragu untuk menghubungi saya:
+Let’s connect! Feel free to reach out for collaboration, questions, or just to say hi:
 
-- 🌐 [Website Resmi](https://nanangmarvin.my.id)
+- 🌐 [Official Website](https://nanangmarvin.my.id)
 - 📧 Email: nanangm.dev@gmail.com
-- 🧠 LinkedIn: https://www.linkedin.com/in/nanang-marvin-kurniawan-343a762a9/
+- 💼 LinkedIn: https://www.linkedin.com/in/nanang-marvin-kurniawan-343a762a9/
 
 ---
 
-## 📝 Lisensi
+## 📝 License
 
-Repositori ini menggunakan lisensi [MIT License](LICENSE) — silakan gunakan dan modifikasi dengan tetap mencantumkan atribusi.
+This repository is licensed under the [MIT License](LICENSE) — feel free to use and modify it with proper attribution.
 
 ---
 
-> Dibuat dengan ❤️ oleh [Nanang Marvin K](https://nanangmarvin.my.id)
+> Made with ❤️ by [Nanang Marvin K](https://nanangmarvin.my.id)
